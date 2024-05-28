@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer Tp opcional</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>TpOpcional</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 <body>
-    <main>
-        <div class="fondo-dividido">
-            <section>
-                <h1>Este es el primer Tp opcional</h1>
-                <h2>Con una estructura basica de HTML.5</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto eaque, sunt distinctio nisi, eos sapiente tempore quidem labore vero, explicabo itaque! Itaque sequi, vel illo iusto facilis dolor quas.
-                Necessitatibus, iure sed consectetur sapiente amet quibusdam error libero! Ipsam id quibusdam ipsum omnis sapiente, asperiores ab nulla similique in minus fugiat quae natus provident mollitia laudantium accusantium atque velit?
-                Facilis minus ducimus amet voluptatibus beatae tempora iure, sunt, odit obcaecati debitis reprehenderit placeat laboriosam. Necessitatibus cumque tempore eligendi porro illo ipsam est nisi? Deleniti sint reiciendis vel harum inventore?</p>
-            </section> 
-            <section>
-                <i><img src="IMG/svg1.svg" alt="Icono de HTML"></i> <!--Icono de HTML local-->
-            </section>
-            <section>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati corrupti quidem ut, vel, eligendi expedita qui ex temporibus vitae culpa aliquid necessitatibus, consequatur eius. Maxime veniam doloribus sed tempora?</p>
-            </section>
+    <div class="container">
+        <img src="img/Pajaro.svg" alt="pajaro">
+        <h1 class="title">TRIPIFY></h1>
+        <h2>Explore your dream destinations</h2>
+        <p class="subparrafo1">Welcome to Tripify! Please enter your login credentials to access 
+            your account and explore our wide ranger of travel options.</p>
+        <hr>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-            <section>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-                <i class="fab fa-twitter"></i> <!--Icono de X de una biblioteca online-->
-            </section>
-        </div>
-    </main>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">LOG IN</button>
+
+            <p class="subparrafo2">Don´t have an account? <strong>Register</strong></p>
+
+        </form>
+    </div>
 </body>
 </html>
